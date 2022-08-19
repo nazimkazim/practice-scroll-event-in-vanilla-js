@@ -1,4 +1,4 @@
-const box1 = document.querySelector('.box1')
+/* const box1 = document.querySelector('.box1')
 const box2 = document.querySelector('.box2')
 const box3 = document.querySelector('.box3')
 
@@ -52,4 +52,17 @@ box3.addEventListener('mouseout', (e) => {
 
 box3.addEventListener('mousemove', (e) => {
     e.target.style.backgroundColor = `rgb(${0.25 * e.clientX},${1.4 * e.clientY},${0.3 * e.clientX})`
-})
+}) */
+
+/* 
+================================================ SELECT EVENT ============================================
+*/
+
+/* const textArea = document.querySelector('.text-area')
+const output = document.querySelector('.output')
+
+textArea.addEventListener('select', (e) => {
+    const selection = e.target.value.substring(e.target.selectionStart, e.target.selectionEnd);
+    output.innerHTML = `
+    ${e.target.value.substring(0, e.target.selectionStart)}<b>${selection}</b> ${e.target.value.substring(e.target.selectionEnd)}`
+}) */
